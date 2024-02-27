@@ -3,7 +3,7 @@ import createTask from './title';
 import myLocalStorage from './storage';
 
 function displayDataOnDocument() {
-    const main = document.querySelector('main');
+    const main = document.createElement('main');
     const favDialog = document.createElement('dialog');
     favDialog.classList.add('favDialog');
     favDialog.open = true;
