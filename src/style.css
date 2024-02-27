@@ -1,72 +1,73 @@
 dialog.favDialog {
-    width:  60vw;
-    border: solid .5px #ddd;
-    border-radius: 15px;
-    margin: 10% auto;
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
+  width: 60vw;
+  border: solid 0.5px #ddd;
+  border-radius: 15px;
+  margin: 10% auto;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
 }
 
 #form {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 div#container {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
-input[type='text'], 
-textarea[id='textarea'] {
-    align-self: flex-start;
-    margin: 5px 0;
-    width: 40vw;
-    border: .5px solid #ddd;
-    padding: 10px;
-    box-sizing: border-box;
+input[type="text"],
+textarea[id="textarea"] {
+  align-self: flex-start;
+  margin: 5px 0;
+  width: 40vw;
+  border: 0.5px solid #ddd;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
-.select, [type='date'] {
-    margin: 0 15px 0 0;
-    border: none;
+.select,
+[type="date"] {
+  margin: 0 15px 0 0;
+  border: none;
 }
 
 .options {
-    border: .5px solid #ddd;
-    width: 40vw;
-    margin: 15px 0;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: row;
-    justify-content:flex-start;
-    align-items: center;
+  border: 0.5px solid #ddd;
+  width: 40vw;
+  margin: 15px 0;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .button-container {
-    width: 60vw;
-    border-top: solid .8px #ddd;
-    display: flex;
-    justify-content: flex-end;
-    padding-top: 10px;
+  width: 60vw;
+  border-top: solid 0.8px #ddd;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 10px;
 }
 
 button#button {
-    padding: 8px 10px;
-    background-color: #500724;
-    border: navajowhite;
-    border-radius: 5px;
-    box-shadow: 2px 2px 2px #DDD;
-    margin-left: 15px;
-    font-size: 12px;
-    align-self: flex-end;
-    color: #fdf2f8;
-    cursor: pointer;
+  padding: 8px 10px;
+  background-color: #500724;
+  border: navajowhite;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px #ddd;
+  margin-left: 15px;
+  font-size: 12px;
+  align-self: flex-end;
+  color: #fdf2f8;
+  cursor: pointer;
 }
 
 #button:hover {
-    background-color: #831843;
+  background-color: #831843;
 }
